@@ -1,12 +1,17 @@
-import { useState } from 'react'
-import './App.css'
+import { Right } from "./components/right"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      New look
+      <div className="main-container">
+        <div className="left-container">
+          leftside
+        </div>
+        <div className="right-container">
+          <Right/>
+        </div>
+      </div>
     </>
   )
 }
